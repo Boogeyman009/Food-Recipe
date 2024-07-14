@@ -175,7 +175,7 @@ const AppComponent = () => {
     <Container>
       <Header>
         <AppName>
-          <RecipeImage src="/react-recipe-finder/hamburger.svg" />
+          <RecipeImage src="/react-recipe-finder/hamburger.jpg" />
           Recipe Finder
         </AppName>
         <SearchBox>
@@ -193,7 +193,7 @@ const AppComponent = () => {
             <RecipeComponent key={index} recipe={recipe.recipe} />
           ))
         ) : (
-          <Placeholder src="/react-recipe-finder/hamburger.svg" />
+          <Placeholder src="/react-recipe-finder/hamburger.jpg" />
         )}
       </RecipeListContainer>
     </Container>
