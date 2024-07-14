@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+#app{
+  font-style: italic;
+  color:blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#logo {
+  display: inline-block; /* Makes the element behave like an inline element but with block-like properties */
+  width: 70px; /* Adjust width as needed */
+  height: 70px; /* Adjust height as needed */
+  padding: 10px; /* Adds internal spacing */
+  text-align: center; /* Centers any text inside */
+  box-sizing: border-box; /* Includes padding and border in element's total width and height */
+  color: #000000; 
+  font-size: 18px;
+  line-height: 50px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

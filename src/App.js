@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
+import React from 'react';
 import './App.css';
+import {Header,searchComp,container} from './styledContainer/style'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <container>
+      <Header>
+        <img id='logo' src='foood.jpg' alt='food image'></img>
+        <span style={{ paddingLeft: '15px' }}>Food Recipe</span>
+        <searchComp>
+          <img id='logo' src='search_icon.jpg'/>
+          <input></input>
+        </searchComp>
+      </Header>
+    </container>
   );
 }
 
